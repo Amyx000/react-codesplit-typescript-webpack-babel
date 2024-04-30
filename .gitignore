@@ -1,0 +1,23 @@
+# Dependency directories
+/node_modules
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production build directory
+/build
+/dist
+
+# Cache directories
+/.cache
+/.eslintcache
+
+# Editor files
+*.swp
+*.swo
+*.swn
+*.swm
+.DS_Store
