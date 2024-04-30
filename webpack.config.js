@@ -11,7 +11,7 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
   },
-  devServer: { contentBase: path.join(__dirname, "src") },
+  devServer: { static: "./" },
   module: {
     rules: [
       {
